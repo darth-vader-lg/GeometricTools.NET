@@ -361,4 +361,8 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
-/TorusTriangleDistance/Settings.xml
+
+# Test workspace directories
+/Tests/Common/ProjectInfo.cs
+/Test/Data
+

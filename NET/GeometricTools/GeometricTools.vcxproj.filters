@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Mathematics">
+      <UniqueIdentifier>{9d6e32cc-69e1-4909-ac7f-28581fc1d542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mathematics\Intersection">
+      <UniqueIdentifier>{2630e433-86ea-4a23-85a9-8f0e23a4857c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mathematics\Intersection\3D">
+      <UniqueIdentifier>{f99eaba2-c2f2-478f-9195-8366c80277e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Mathematics">
+      <UniqueIdentifier>{062bf47d-3599-434c-bed3-285b55c4804c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Mathematics\Intersection">
+      <UniqueIdentifier>{f3de4d25-09e7-4c5d-bb86-03ee4a29be3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Mathematics\Intersection\3D">
+      <UniqueIdentifier>{2176ac6a-8a1e-43b7-ae61-ac07536fd0ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mathematics\Primitives">
+      <UniqueIdentifier>{15147025-2940-4040-bdee-d3a5b651ce3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mathematics\Primitives\ND">
+      <UniqueIdentifier>{4759c8d8-f72d-4201-b14b-58f32bbca1f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Mathematics\Primitives">
+      <UniqueIdentifier>{b62a5fa5-cbb5-4aad-92fa-0318d51a14b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Mathematics\Primitives\ND">
+      <UniqueIdentifier>{f2cfc560-4564-441c-bf31-33a5a14c796c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Mathematics\Algebra">
+      <UniqueIdentifier>{1b588209-9d8b-4368-824d-e0dd4f65ce96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mathematics\Algebra">
+      <UniqueIdentifier>{5b14e7f8-c297-495f-9000-cc1f76405ab7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Mathematics\Intersection\ND">
+      <UniqueIdentifier>{a4c94656-57f7-42d7-a08b-d855c6c01df7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mathematics\Intersection\ND">
+      <UniqueIdentifier>{8fb6ff89-53e4-4868-a694-73fde947230c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Mathematics\IntrLine3Plane3.h">
+      <Filter>Header Files\Mathematics\Intersection\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Line3.h">
+      <Filter>Header Files\Mathematics\Primitives\ND</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Plane3.h">
+      <Filter>Header Files\Mathematics\Primitives\ND</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Vector3.h">
+      <Filter>Header Files\Mathematics\Algebra</Filter>
+    </ClInclude>
+    <ClInclude Include="Native.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Ray3.h">
+      <Filter>Header Files\Mathematics\Primitives\ND</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\IntrRay3Plane3.h">
+      <Filter>Header Files\Mathematics\Intersection\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Intersection.h">
+      <Filter>Header Files\Mathematics\Intersection\ND</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AssemblyInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mathematics\IntrLine3Plane3.cpp">
+      <Filter>Source Files\Mathematics\Intersection\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Mathematics\Line3.cpp">
+      <Filter>Source Files\Mathematics\Primitives\ND</Filter>
+    </ClCompile>
+    <ClCompile Include="Mathematics\Plane3.cpp">
+      <Filter>Source Files\Mathematics\Primitives\ND</Filter>
+    </ClCompile>
+    <ClCompile Include="Mathematics\Vector3.cpp">
+      <Filter>Source Files\Mathematics\Algebra</Filter>
+    </ClCompile>
+    <ClCompile Include="Native.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mathematics\Ray3.cpp">
+      <Filter>Source Files\Mathematics\Primitives\ND</Filter>
+    </ClCompile>
+    <ClCompile Include="Mathematics\IntrRay3Plane3.cpp">
+      <Filter>Source Files\Mathematics\Intersection\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Mathematics\Intersection.cpp">
+      <Filter>Source Files\Mathematics\Intersection\ND</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
