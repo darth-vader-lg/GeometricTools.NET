@@ -25,6 +25,10 @@ namespace Mathematics
          Assert.Equal(100, result.point.x);
          Assert.Equal(0, result.point.y);
          Assert.Equal(0, result.point.z);
+         result = Intersection.Find(line, plane);
+         Assert.Equal(100, result.point.x);
+         Assert.Equal(0, result.point.y);
+         Assert.Equal(0, result.point.z);
       }
       /// <summary>
       /// Intersection ray / plane
@@ -39,6 +43,28 @@ namespace Mathematics
          Assert.Equal(100, result.point.x);
          Assert.Equal(0, result.point.y);
          Assert.Equal(0, result.point.z);
+         result = Intersection.Find(ray, plane);
+         Assert.Equal(100, result.point.x);
+         Assert.Equal(0, result.point.y);
+         Assert.Equal(0, result.point.z);
+      }
+      /// <summary>
+      /// Intersection ray / plane
+      /// </summary>
+      [Fact]
+      public void IntrPlane3Plane3()
+      {
+         var plane0 = new Plane3(new Vector3(1, 0, 0), new Vector3(0, 0, 0));
+         var plane1 = new Plane3(new Vector3(0, 1, 0), new Vector3(10, 0, 0));
+         var query = Intersection.FIQuery<Plane3, Plane3>();
+         var result = query(plane0, plane1);
+         Assert.True(result.isLine);
+         Assert.Equal(0, result.line.origin.x);
+         Assert.Equal(1, result.line.direction.z);
+         result = Intersection.Find(plane0, plane1);
+         Assert.True(result.isLine);
+         Assert.Equal(0, result.line.origin.x);
+         Assert.Equal(1, result.line.direction.z);
       }
       #endregion
    }

@@ -7,17 +7,16 @@ namespace GeometricTools
 {
    public ref class IntrRay3Plane3
    {
+   private:
+      using GTEFIQuery = gte::FIQuery<double, GTERay3, GTEPlane3>;
    public:
-      using GTEResult = gte::FIQuery<double, GTERay3, GTEPlane3>::Result;
-      ref struct Result : public IntrLine3Plane3::Result
+      ref struct FIResult : public IntrLine3Plane3::FIResult
       {
       internal:
-         Result(const GTEResult& result) : IntrLine3Plane3::Result(result) { }
+         FIResult(const GTEFIQuery::Result& result) : IntrLine3Plane3::FIResult(result) { }
       };
-   internal:
-      static Result^ DoQuery(Ray3^ ray, Plane3^ plane)
-      {
-         return gcnew Result(gte::FIQuery<double, GTERay3, GTEPlane3>()(ray->native(), plane->native()));
-      }
+   public:
+      using FIQuery = Func<Ray3^, Plane3^, FIResult^>;
+      static FIQuery^ CreateFIQuery() { return Query<GTEFIQuery, FIResult, Ray3, Plane3>::FIQuery(); }
    };
 };

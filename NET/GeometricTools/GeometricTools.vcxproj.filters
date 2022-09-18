@@ -45,12 +45,6 @@
     <Filter Include="Source Files\Mathematics\Algebra">
       <UniqueIdentifier>{5b14e7f8-c297-495f-9000-cc1f76405ab7}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\Mathematics\Intersection\ND">
-      <UniqueIdentifier>{a4c94656-57f7-42d7-a08b-d855c6c01df7}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Mathematics\Intersection\ND">
-      <UniqueIdentifier>{8fb6ff89-53e4-4868-a694-73fde947230c}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Mathematics\IntrLine3Plane3.h">
@@ -74,8 +68,14 @@
     <ClInclude Include="Mathematics\IntrRay3Plane3.h">
       <Filter>Header Files\Mathematics\Intersection\3D</Filter>
     </ClInclude>
+    <ClInclude Include="Mathematics\IntrPlane3Plane3.h">
+      <Filter>Header Files\Mathematics\Intersection\3D</Filter>
+    </ClInclude>
     <ClInclude Include="Mathematics\Intersection.h">
-      <Filter>Header Files\Mathematics\Intersection\ND</Filter>
+      <Filter>Header Files\Mathematics\Intersection</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\IntersectionQuery.h">
+      <Filter>Header Files\Mathematics\Intersection</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -103,8 +103,14 @@
     <ClCompile Include="Mathematics\IntrRay3Plane3.cpp">
       <Filter>Source Files\Mathematics\Intersection\3D</Filter>
     </ClCompile>
+    <ClCompile Include="Mathematics\IntrPlane3Plane3.cpp">
+      <Filter>Source Files\Mathematics\Intersection\3D</Filter>
+    </ClCompile>
     <ClCompile Include="Mathematics\Intersection.cpp">
-      <Filter>Source Files\Mathematics\Intersection\ND</Filter>
+      <Filter>Source Files\Mathematics\Intersection</Filter>
+    </ClCompile>
+    <ClCompile Include="Mathematics\IntersectionQuery.cpp">
+      <Filter>Source Files\Mathematics\Intersection</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -142,6 +142,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Mathematics\IntersectionQuery.h" />
+    <ClInclude Include="Mathematics\IntrPlane3Plane3.h" />
     <ClInclude Include="Mathematics\Intersection.h" />
     <ClInclude Include="Mathematics\IntrLine3Plane3.h" />
     <ClInclude Include="Mathematics\IntrRay3Plane3.h" />
@@ -153,6 +155,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AssemblyInfo.cpp" />
+    <ClCompile Include="Mathematics\IntersectionQuery.cpp" />
+    <ClCompile Include="Mathematics\IntrPlane3Plane3.cpp" />
     <ClCompile Include="Mathematics\Intersection.cpp" />
     <ClCompile Include="Mathematics\IntrLine3Plane3.cpp" />
     <ClCompile Include="Mathematics\IntrRay3Plane3.cpp" />
