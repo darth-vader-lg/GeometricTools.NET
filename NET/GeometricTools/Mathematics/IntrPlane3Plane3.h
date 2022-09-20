@@ -23,10 +23,8 @@ namespace GeometricTools
       internal:
          FIResult(const GTEFIQuery::Result& result) { native = gcnew NativeValue<GTEFIQuery::Result>(result); }
       };
-   public:
+   internal:
       using FIQuery = Func<Plane3^, Plane3^, FIResult^>;
       static FIQuery^ CreateFIQuery() { return Query<GTEFIQuery, FIResult, Plane3, Plane3>::FIQuery(); }
    };
 };
-
-

@@ -1,6 +1,4 @@
 #pragma once
-#include <list>
-#include <vector>
 #include <Mathematics/Hyperplane.h>
 #include "Vector3.h"
 

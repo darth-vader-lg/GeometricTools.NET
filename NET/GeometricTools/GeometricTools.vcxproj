@@ -142,6 +142,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Mathematics\IntrPlane3Circle3.h" />
+    <ClInclude Include="Mathematics\Circle3.h" />
     <ClInclude Include="Mathematics\IntersectionQuery.h" />
     <ClInclude Include="Mathematics\IntrPlane3Plane3.h" />
     <ClInclude Include="Mathematics\Intersection.h" />
@@ -156,6 +158,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AssemblyInfo.cpp" />
+    <ClCompile Include="Mathematics\IntrPlane3Circle3.cpp" />
+    <ClCompile Include="Mathematics\Circle3.cpp" />
     <ClCompile Include="Mathematics\IntersectionQuery.cpp" />
     <ClCompile Include="Mathematics\IntrPlane3Plane3.cpp" />
     <ClCompile Include="Mathematics\Intersection.cpp" />

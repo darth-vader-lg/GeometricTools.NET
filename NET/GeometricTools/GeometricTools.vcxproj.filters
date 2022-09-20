@@ -30,14 +30,8 @@
     <Filter Include="Source Files\Mathematics\Primitives">
       <UniqueIdentifier>{15147025-2940-4040-bdee-d3a5b651ce3c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Mathematics\Primitives\ND">
-      <UniqueIdentifier>{4759c8d8-f72d-4201-b14b-58f32bbca1f5}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files\Mathematics\Primitives">
       <UniqueIdentifier>{b62a5fa5-cbb5-4aad-92fa-0318d51a14b5}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\Mathematics\Primitives\ND">
-      <UniqueIdentifier>{f2cfc560-4564-441c-bf31-33a5a14c796c}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files\Mathematics\Algebra">
       <UniqueIdentifier>{1b588209-9d8b-4368-824d-e0dd4f65ce96}</UniqueIdentifier>
@@ -51,16 +45,22 @@
     <Filter Include="Source Files\Mathematics\NumericalMethods">
       <UniqueIdentifier>{c59ea5ad-a2aa-4850-bef1-1ef5ac9c0a8b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Mathematics\Primitives\3D">
+      <UniqueIdentifier>{4759c8d8-f72d-4201-b14b-58f32bbca1f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Mathematics\Primitives\3D">
+      <UniqueIdentifier>{f2cfc560-4564-441c-bf31-33a5a14c796c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Mathematics\IntrLine3Plane3.h">
       <Filter>Header Files\Mathematics\Intersection\3D</Filter>
     </ClInclude>
     <ClInclude Include="Mathematics\Line3.h">
-      <Filter>Header Files\Mathematics\Primitives\ND</Filter>
+      <Filter>Header Files\Mathematics\Primitives\3D</Filter>
     </ClInclude>
     <ClInclude Include="Mathematics\Plane3.h">
-      <Filter>Header Files\Mathematics\Primitives\ND</Filter>
+      <Filter>Header Files\Mathematics\Primitives\3D</Filter>
     </ClInclude>
     <ClInclude Include="Mathematics\Vector3.h">
       <Filter>Header Files\Mathematics\Algebra</Filter>
@@ -69,7 +69,7 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Mathematics\Ray3.h">
-      <Filter>Header Files\Mathematics\Primitives\ND</Filter>
+      <Filter>Header Files\Mathematics\Primitives\3D</Filter>
     </ClInclude>
     <ClInclude Include="Mathematics\IntrRay3Plane3.h">
       <Filter>Header Files\Mathematics\Intersection\3D</Filter>
@@ -86,6 +86,12 @@
     <ClInclude Include="Mathematics\Minimize1.h">
       <Filter>Header Files\Mathematics\NumericalMethods</Filter>
     </ClInclude>
+    <ClInclude Include="Mathematics\Circle3.h">
+      <Filter>Header Files\Mathematics\Primitives\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\IntrPlane3Circle3.h">
+      <Filter>Header Files\Mathematics\Intersection\3D</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AssemblyInfo.cpp">
@@ -95,10 +101,10 @@
       <Filter>Source Files\Mathematics\Intersection\3D</Filter>
     </ClCompile>
     <ClCompile Include="Mathematics\Line3.cpp">
-      <Filter>Source Files\Mathematics\Primitives\ND</Filter>
+      <Filter>Source Files\Mathematics\Primitives\3D</Filter>
     </ClCompile>
     <ClCompile Include="Mathematics\Plane3.cpp">
-      <Filter>Source Files\Mathematics\Primitives\ND</Filter>
+      <Filter>Source Files\Mathematics\Primitives\3D</Filter>
     </ClCompile>
     <ClCompile Include="Mathematics\Vector3.cpp">
       <Filter>Source Files\Mathematics\Algebra</Filter>
@@ -107,7 +113,7 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Mathematics\Ray3.cpp">
-      <Filter>Source Files\Mathematics\Primitives\ND</Filter>
+      <Filter>Source Files\Mathematics\Primitives\3D</Filter>
     </ClCompile>
     <ClCompile Include="Mathematics\IntrRay3Plane3.cpp">
       <Filter>Source Files\Mathematics\Intersection\3D</Filter>
@@ -123,6 +129,12 @@
     </ClCompile>
     <ClCompile Include="Mathematics\Minimize1.cpp">
       <Filter>Source Files\Mathematics\NumericalMethods</Filter>
+    </ClCompile>
+    <ClCompile Include="Mathematics\Circle3.cpp">
+      <Filter>Source Files\Mathematics\Primitives\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Mathematics\IntrPlane3Circle3.cpp">
+      <Filter>Source Files\Mathematics\Intersection\3D</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
