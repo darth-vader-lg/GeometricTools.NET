@@ -148,6 +148,7 @@
     <ClInclude Include="Mathematics\IntrLine3Plane3.h" />
     <ClInclude Include="Mathematics\IntrRay3Plane3.h" />
     <ClInclude Include="Mathematics\Line3.h" />
+    <ClInclude Include="Mathematics\Minimize1.h" />
     <ClInclude Include="Native.h" />
     <ClInclude Include="Mathematics\Plane3.h" />
     <ClInclude Include="Mathematics\Ray3.h" />
@@ -161,6 +162,7 @@
     <ClCompile Include="Mathematics\IntrLine3Plane3.cpp" />
     <ClCompile Include="Mathematics\IntrRay3Plane3.cpp" />
     <ClCompile Include="Mathematics\Line3.cpp" />
+    <ClCompile Include="Mathematics\Minimize1.cpp" />
     <ClCompile Include="Native.cpp" />
     <ClCompile Include="Mathematics\Plane3.cpp" />
     <ClCompile Include="Mathematics\Ray3.cpp" />

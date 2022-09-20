@@ -21,8 +21,7 @@ namespace GeometricTools
       }
       NativeValue(const T& obj)
       {
-         this->obj = new T();
-         *this->obj = obj;
+         this->obj = new T(obj);
       }
       ~NativeValue()
       {

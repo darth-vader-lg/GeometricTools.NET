@@ -45,6 +45,12 @@
     <Filter Include="Source Files\Mathematics\Algebra">
       <UniqueIdentifier>{5b14e7f8-c297-495f-9000-cc1f76405ab7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Mathematics\NumericalMethods">
+      <UniqueIdentifier>{6a1458c4-27e5-42a5-a16d-dd8451571dc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mathematics\NumericalMethods">
+      <UniqueIdentifier>{c59ea5ad-a2aa-4850-bef1-1ef5ac9c0a8b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Mathematics\IntrLine3Plane3.h">
@@ -76,6 +82,9 @@
     </ClInclude>
     <ClInclude Include="Mathematics\IntersectionQuery.h">
       <Filter>Header Files\Mathematics\Intersection</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Minimize1.h">
+      <Filter>Header Files\Mathematics\NumericalMethods</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -111,6 +120,9 @@
     </ClCompile>
     <ClCompile Include="Mathematics\IntersectionQuery.cpp">
       <Filter>Source Files\Mathematics\Intersection</Filter>
+    </ClCompile>
+    <ClCompile Include="Mathematics\Minimize1.cpp">
+      <Filter>Source Files\Mathematics\NumericalMethods</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
