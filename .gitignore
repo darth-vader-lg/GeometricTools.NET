@@ -363,6 +363,5 @@ MigrationBackup/
 FodyWeavers.xsd
 
 # Test workspace directories
-/Tests/Common/ProjectInfo.cs
+/NET/Tests/Common/ProjectInfo.cs
 /Test/Data
-

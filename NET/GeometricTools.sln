@@ -1,17 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.28803.156
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GeometricTools", "GeometricTools\GeometricTools.vcxproj", "{21613316-7028-42EB-9EB6-522B1451BA39}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GTMathematics.v16", "..\GTE\GTMathematics.v16.vcxproj", "{3F553568-76EF-48F0-88DD-270482C058B9}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mathematics", "Tests\Mathematics\Mathematics.csproj", "{75F6B869-D0B2-4CC1-B941-E580EFD39C13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mathematics", "Tests\Mathematics\Mathematics.csproj", "{75F6B869-D0B2-4CC1-B941-E580EFD39C13}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{6B3A9B25-644C-4A06-BCF1-846D3D153F9E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Tests\Common\Common.csproj", "{F93AFA9C-B1F3-48D4-8DF4-7E9715580F95}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GTMathematics.v17", "..\GTE\GTMathematics.v17.vcxproj", "{0CADDB12-31D9-4F60-A8C0-678D1773DA03}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,18 +35,6 @@ Global
 		{21613316-7028-42EB-9EB6-522B1451BA39}.Release|x64.Build.0 = Release|x64
 		{21613316-7028-42EB-9EB6-522B1451BA39}.Release|x86.ActiveCfg = Release|Win32
 		{21613316-7028-42EB-9EB6-522B1451BA39}.Release|x86.Build.0 = Release|Win32
-		{3F553568-76EF-48F0-88DD-270482C058B9}.Debug|Any CPU.ActiveCfg = Debug|x64
-		{3F553568-76EF-48F0-88DD-270482C058B9}.Debug|Any CPU.Build.0 = Debug|x64
-		{3F553568-76EF-48F0-88DD-270482C058B9}.Debug|x64.ActiveCfg = Debug|x64
-		{3F553568-76EF-48F0-88DD-270482C058B9}.Debug|x64.Build.0 = Debug|x64
-		{3F553568-76EF-48F0-88DD-270482C058B9}.Debug|x86.ActiveCfg = Debug|Win32
-		{3F553568-76EF-48F0-88DD-270482C058B9}.Debug|x86.Build.0 = Debug|Win32
-		{3F553568-76EF-48F0-88DD-270482C058B9}.Release|Any CPU.ActiveCfg = Release|x64
-		{3F553568-76EF-48F0-88DD-270482C058B9}.Release|Any CPU.Build.0 = Release|x64
-		{3F553568-76EF-48F0-88DD-270482C058B9}.Release|x64.ActiveCfg = Release|x64
-		{3F553568-76EF-48F0-88DD-270482C058B9}.Release|x64.Build.0 = Release|x64
-		{3F553568-76EF-48F0-88DD-270482C058B9}.Release|x86.ActiveCfg = Release|Win32
-		{3F553568-76EF-48F0-88DD-270482C058B9}.Release|x86.Build.0 = Release|Win32
 		{75F6B869-D0B2-4CC1-B941-E580EFD39C13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{75F6B869-D0B2-4CC1-B941-E580EFD39C13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75F6B869-D0B2-4CC1-B941-E580EFD39C13}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -71,6 +59,18 @@ Global
 		{F93AFA9C-B1F3-48D4-8DF4-7E9715580F95}.Release|x64.Build.0 = Release|Any CPU
 		{F93AFA9C-B1F3-48D4-8DF4-7E9715580F95}.Release|x86.ActiveCfg = Release|Any CPU
 		{F93AFA9C-B1F3-48D4-8DF4-7E9715580F95}.Release|x86.Build.0 = Release|Any CPU
+		{0CADDB12-31D9-4F60-A8C0-678D1773DA03}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{0CADDB12-31D9-4F60-A8C0-678D1773DA03}.Debug|Any CPU.Build.0 = Debug|x64
+		{0CADDB12-31D9-4F60-A8C0-678D1773DA03}.Debug|x64.ActiveCfg = Debug|x64
+		{0CADDB12-31D9-4F60-A8C0-678D1773DA03}.Debug|x64.Build.0 = Debug|x64
+		{0CADDB12-31D9-4F60-A8C0-678D1773DA03}.Debug|x86.ActiveCfg = Debug|Win32
+		{0CADDB12-31D9-4F60-A8C0-678D1773DA03}.Debug|x86.Build.0 = Debug|Win32
+		{0CADDB12-31D9-4F60-A8C0-678D1773DA03}.Release|Any CPU.ActiveCfg = Release|x64
+		{0CADDB12-31D9-4F60-A8C0-678D1773DA03}.Release|Any CPU.Build.0 = Release|x64
+		{0CADDB12-31D9-4F60-A8C0-678D1773DA03}.Release|x64.ActiveCfg = Release|x64
+		{0CADDB12-31D9-4F60-A8C0-678D1773DA03}.Release|x64.Build.0 = Release|x64
+		{0CADDB12-31D9-4F60-A8C0-678D1773DA03}.Release|x86.ActiveCfg = Release|Win32
+		{0CADDB12-31D9-4F60-A8C0-678D1773DA03}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

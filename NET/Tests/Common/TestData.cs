@@ -112,6 +112,7 @@ namespace Common
       /// <returns>The path of the test object</returns>
       public string Get()
       {
+#pragma warning disable SYSLIB0014 // Il tipo o il membro è obsoleto
          // Check for existence
          var fullPath = IOPath.GetFullPath(IOPath.Combine(root, path));
          if ((isFolder && Directory.Exists(fullPath)) || (!isFolder && IOFile.Exists(fullPath)))
@@ -163,6 +164,7 @@ namespace Common
          Assert.True(isFolder || IOFile.Exists(fullPath));
          Assert.True(!isFolder || Directory.Exists(fullPath));
          return fullPath;
+#pragma warning restore SYSLIB0014 // Il tipo o il membro è obsoleto
       }
       #endregion
    }
